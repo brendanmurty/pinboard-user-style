@@ -138,3 +138,14 @@ a.unread {
 #tab_panes {
   padding: 10px;
 }
+
+/* Forms */
+
+input[type="button"],
+input[type="submit"] {
+  padding: 4px 8px;
+}
+
+.search_button input[type="checkbox"] {
+  float: left;
+}
