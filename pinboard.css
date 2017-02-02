@@ -1,0 +1,113 @@
+/* Custom user style for Pinboard.in by Brendan Murty */
+
+/* Hide elements */
+
+#timer,
+#logo span {
+    display: none;
+}
+
+/* Layout */
+
+body {
+    margin: 10px;
+}
+#banner {
+	background-color: #11a;
+	margin: 0 auto;
+    border: 0 none;
+    padding: 10px;
+    width: 1030px;
+}
+#banner a {
+    color: #fff;
+}
+#main_column {
+    margin-top: 10px;
+    width: 740px;
+}
+#right_bar,
+#tag_cloud {
+    margin-top: 10px;
+    float: right;
+    width: 300px;
+    margin-left: 10px;
+}
+#searchbox input[type=text] {
+	width: 296px;
+}
+.small_username a,
+a.bookmark_title:visited,
+#main_column a.unread,
+#main_column > p a:visited {
+	color: #11a !important;
+}
+a.url_display {
+	color: #888 !important;
+}
+#bulk_links {
+    margin-bottom: 0;
+}
+#nextprev,
+#bottom_next_prev,
+.user_navbar,
+#main_column > p {
+    padding: 0 10px;
+}
+.rss_linkbox {
+    margin-right: 15px;
+}
+#footer {
+	border-top: 1px solid #ccc;
+	padding: 20px 0 10px;
+    margin: 20px auto 10px;
+    width: 1030px;
+}
+#footer hr {
+    border: 0 !important;
+}
+
+/* Link list */
+
+.bookmark {
+	width: 715px;
+	padding: 10px;
+}
+.star {
+    float: right;
+}
+.display {
+    max-width: 625px;
+}
+.private {
+	border: 0;
+}
+a.unread {
+    font-weight: bold;
+ 	color: #51a;
+}
+.star {
+    margin-left: 0;
+    margin-right: 5px;
+}
+.edit_checkbox input {
+    margin-top: 15px;
+}
+#bulk_edit_options {
+    width: 730px;
+}
+#bulk_edit_box {
+    border: 0;
+}
+
+/* Settings */
+
+.tab,
+.tab_spacer,
+#tab_panes,
+#import_history_table {
+    border: 0 !important;
+}
+#tab_panes {
+    padding: 10px;
+}
