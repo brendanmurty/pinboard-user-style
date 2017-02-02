@@ -2,7 +2,7 @@
 
 A more modern look for the bookmarking service [Pinboard](https://pinboard.in).
 
-![Screenshot](https://bytebucket.org/brendanmurty/pinboard-user-style/raw/master/screenshot.png)
+![Screenshot](screenshot.png)
 
 ## Usage
 
