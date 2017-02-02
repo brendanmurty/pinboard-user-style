@@ -13,6 +13,12 @@ body {
   margin: 10px;
 }
 
+#logo a[href="/settings/privacy"] {
+  /* Privacy lock */
+  background-color: #efeffd;
+  padding-right: 3px;
+}
+
 #banner {
   background-color: #11a;
   margin: 0 auto;
