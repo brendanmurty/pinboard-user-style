@@ -77,8 +77,8 @@ a.url_display {
 #footer {
 	border-top: 1px solid #ccc;
 	padding: 20px 0 10px;
-  margin: 20px auto 10px;
-  width: 1030px;
+	margin: 20px auto 10px;
+	width: 1030px;
 }
 
 #footer hr {
@@ -142,7 +142,8 @@ a.unread {
 /* Forms */
 
 input[type="button"],
-input[type="submit"] {
+input[type="submit"],
+input[type="reset"] {
   padding: 4px 8px;
 }
 
