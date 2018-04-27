@@ -10,21 +10,25 @@
 /* Layout */
 
 body {
-  margin: 10px;
+  margin: 0;
+  font-family: "Helvetica Neue", "Microsoft YaHei", Arial, Helvetica, sans-serif;
 }
+
+/* Privacy lock */
 
 #logo a[href="/settings/privacy"] {
-  /* Privacy lock */
-  background-color: #efeffd;
+  background-color: #fff;
   padding-right: 3px;
+  margin-left: 5px;
 }
 
-#banner {
+#banner,
+.user_navbar {
   background-color: #11a;
   margin: 0 auto;
   border: 0 none;
-  padding: 10px;
-  width: 1030px;
+  padding: 25px 20px;
+  width: 1010px;
 }
 
 #banner a {
@@ -32,7 +36,6 @@ body {
 }
 
 #main_column {
-  margin-top: 10px;
   width: 740px;
 }
 
@@ -44,11 +47,34 @@ body {
   margin-left: 10px;
 }
 
-#searchbox input[type=text] {
-	width: 296px;
+#searchbox {
+  margin-top: -20px;
 }
 
-.small_username a,
+#searchbox input[type=text] {
+	width: 275px;
+  margin-bottom: 5px;
+}
+
+#searchbox .search_button {
+  display: inline-block;
+  float: none;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+#searchbox label[for='fulltext'] {
+  font-size: 90%;
+}
+
+.small_username a {
+  color: #fff !important;
+}
+
+#top_menu a[href='/logout/'] {
+  color: #999 !important;
+}
+
 a.bookmark_title:visited,
 #main_column a.unread,
 #main_column > p a:visited {
@@ -65,13 +91,16 @@ a.url_display {
 
 #nextprev,
 #bottom_next_prev,
-.user_navbar,
 #main_column > p {
   padding: 0 10px;
+  margin-top: 5px;
 }
 
 .rss_linkbox {
-  margin-right: 15px;
+  position: fixed;
+  left: 110px;
+  top: 115px;
+  float: left;
 }
 
 #footer {
