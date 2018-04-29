@@ -97,9 +97,9 @@ a.url_display {
 }
 
 .rss_linkbox {
-  position: fixed;
-  left: 110px;
-  top: 115px;
+  position: relative;
+  left: -151px;
+  top: 18px;
   float: left;
 }
 
