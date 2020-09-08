@@ -85,8 +85,7 @@ input#tags,
 }
 
 a,
-a:visited,
-a.twitter_user {
+a:visited {
   color: #fff;
 }
 
@@ -97,8 +96,19 @@ a.bookmark_title:visited,
 	color: #fff !important;
 }
 
-a.url_display {
-	color: #888 !important;
+a.tag,
+a.tag:visited {
+  color: #a51;
+}
+
+a.twitter_user,
+a.twitter_user:visited {
+  color: #888;
+}
+
+a.url_display,
+a.url_display:visited {
+	color: #888;
 }
 
 #bulk_links {
