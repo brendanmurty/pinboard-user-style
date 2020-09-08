@@ -49,7 +49,10 @@ body {
   margin-left: 10px;
 }
 
-a.tag {
+a.tag,
+form[action="/add"] a,
+input#tags,
+.pin-ac {
   text-transform: lowercase;
 }
 
@@ -208,5 +211,3 @@ h2.tour_heading,
 .help {
   padding: 2px 3px;
 }
-
-
