@@ -3,15 +3,18 @@
 /* Hide elements */
 
 #timer,
-#logo span {
+#logo span,
+.tab_spacer {
   display: none;
 }
 
 /* Layout */
 
 body {
-  margin: 0;
+  margin: 20px;
   font-family: "Helvetica Neue", "Microsoft YaHei", Arial, Helvetica, sans-serif;
+  background-color: #000;
+  color: #fff;
 }
 
 /* Privacy lock */
@@ -24,7 +27,7 @@ body {
 
 #banner,
 .user_navbar {
-  background-color: #11a;
+  background-color: #1e1ed0;
   margin: 0 auto;
   border: 0 none;
   padding: 25px 20px;
@@ -45,6 +48,10 @@ body {
   float: right;
   width: 300px;
   margin-left: 10px;
+}
+
+#tag_cloud a.tag_heading_selected {
+  color: #fff;
 }
 
 #searchbox {
@@ -72,13 +79,20 @@ body {
 }
 
 #top_menu a[href='/logout/'] {
-  color: #999 !important;
+  color: #f11616 !important;
 }
 
+a,
+a:visited,
+a.twitter_user {
+  color: #fff;
+}
+
+a.bookmark_title,
 a.bookmark_title:visited,
 #main_column a.unread,
 #main_column > p a:visited {
-	color: #11a !important;
+	color: #fff !important;
 }
 
 a.url_display {
@@ -97,9 +111,6 @@ a.url_display {
 }
 
 .rss_linkbox {
-  position: relative;
-  left: -151px;
-  top: 18px;
   float: left;
 }
 
@@ -119,6 +130,7 @@ a.url_display {
 .bookmark {
 	width: 715px;
 	padding: 10px;
+  background-color: #222;
 }
 
 .star {
@@ -170,6 +182,11 @@ a.unread {
 
 /* Forms */
 
+#main_column form {
+  background-color: #000;
+  color: #fff;
+}
+
 input[type="button"],
 input[type="submit"],
 input[type="reset"] {
@@ -178,4 +195,19 @@ input[type="reset"] {
 
 .search_button input[type="checkbox"] {
   float: left;
+}
+
+td,
+h2.settings_heading,
+.tabs,
+h2.tour_heading {
+  background-color: transparent;
+}
+
+.tab_selected {
+  background-color: #444;
+}
+
+.help {
+  padding: 2px 3px;
 }
