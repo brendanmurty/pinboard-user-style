@@ -76,12 +76,8 @@ input#tags,
   font-size: 90%;
 }
 
-.small_username a {
-  color: #fff !important;
-}
-
 #top_menu a[href='/logout/'] {
-  color: #f11616 !important;
+  color: #9b9be7;
 }
 
 a,
@@ -93,7 +89,7 @@ a.bookmark_title,
 a.bookmark_title:visited,
 #main_column a.unread,
 #main_column > p a:visited {
-	color: #fff !important;
+	color: #fff;
 }
 
 a.tag,
