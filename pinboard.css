@@ -195,7 +195,9 @@ input[type="reset"] {
 td,
 h2.settings_heading,
 .tabs,
-h2.tour_heading {
+h2.tour_heading,
+#edit_bookmark_form,
+#edit_bookmark_form form {
   background-color: transparent;
 }
 
@@ -206,3 +208,5 @@ h2.tour_heading {
 .help {
   padding: 2px 3px;
 }
+
+
