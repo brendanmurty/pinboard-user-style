@@ -50,6 +50,10 @@ body {
   margin-left: 10px;
 }
 
+a.tag {
+  text-transform: lowercase;
+}
+
 #tag_cloud a.tag_heading_selected {
   color: #fff;
 }
