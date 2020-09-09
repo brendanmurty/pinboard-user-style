@@ -38,7 +38,10 @@ body {
 }
 
 #main_column {
-  width: 740px;
+  margin: 0 auto 10px;
+  padding: 0;
+  width: 700px;
+  float: left;
 }
 
 #right_bar,
