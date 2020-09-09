@@ -50,9 +50,10 @@ body {
 }
 
 a.tag,
-form[action="/add"] a,
 input#tags,
-.pin-ac {
+input#tags_input,
+form[action="/add"] a,
+form[action="/add"] .pin-ac {
   text-transform: lowercase;
 }
 
