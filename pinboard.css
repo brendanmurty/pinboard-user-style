@@ -56,7 +56,8 @@ a.tag,
 input#tags,
 input#tags_input,
 form[action="/add"] a,
-form[action="/add"] .pin-ac {
+form[action="/add"] .pin-ac,
+form[action="/edit/"] .pin-ac {
   text-transform: lowercase;
 }
 
