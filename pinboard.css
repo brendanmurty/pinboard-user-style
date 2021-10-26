@@ -33,11 +33,12 @@ body {
 }
 
 #banner {
-  background-color: #1e1ed0;
-  margin: 0 auto 10px;
   border: 0 none;
-  padding: 25px 20px;
-  width: 1010px;
+  padding: 20px;
+  margin: 0 0 10px;
+  width: 100%;
+  max-width: none;
+  background-color: #6495ed;
 }
 
 #banner a {
@@ -49,6 +50,10 @@ body {
   padding: 0;
   width: 700px;
   float: left;
+}
+
+#bookmarks {
+  margin: 0;	
 }
 
 #right_bar,
@@ -73,7 +78,7 @@ form[action="/edit/"] .pin-ac {
 }
 
 #searchbox input[type=text] {
-	width: 275px;
+  width: 275px;
   margin-bottom: 5px;
 }
 
@@ -89,7 +94,7 @@ form[action="/edit/"] .pin-ac {
 }
 
 #top_menu a[href='/logout/'] {
-  color: #9b9be7;
+  color: #000;
 }
 
 a,
@@ -106,7 +111,7 @@ a.bookmark_title:visited,
 
 a.tag,
 a.tag:visited {
-  color: #a51;
+    color: #6495ed;
 }
 
 a.twitter_user,
